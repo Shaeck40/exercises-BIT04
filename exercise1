@@ -1,2 +1,4 @@
-MariaDB [biodb]> select concat(genus," ",species) as "full_name" FROM modorg;
+print( select concat(genus," ",species) as "full_name" FROM modorg;)
+print(SELECT * from modorg where class='mammals' AND YEAR(draft) >=2005;)
+
 
