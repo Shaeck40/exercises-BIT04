@@ -1,0 +1,2 @@
+MariaDB [biodb]> select concat(genus," ",species) as "full_name" FROM modorg;
+
